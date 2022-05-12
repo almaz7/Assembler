@@ -3,7 +3,7 @@
 	.data
 	.align 3
 n:
-	.word 5
+	.word 6
 m:
 	.word 4
 matrix:
@@ -12,8 +12,9 @@ matrix:
 	.quad -4, 7, 4, -20
 	.quad 3, 6, 4, 1
 	.quad 2, -10, -6, 1
+	.quad -1, -2, -3, -4
 new_matrix:
-	.skip 160
+	.skip 192
 index:     //vector of indexes
 	.skip 32	 
 mins:
