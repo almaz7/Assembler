@@ -5,7 +5,7 @@ mes1:
 	.ascii "\nEnter string: "
 	.equ mes1_len, .-mes1
 
-	.equ bufsize, 4
+	.equ bufsize, 1
 str:
 	.skip bufsize+1
 mes2:
