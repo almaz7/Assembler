@@ -12,13 +12,13 @@ CC = $(CROSS_COMPILE)gcc
 AS = $(CROSS_COMPILE)as
 LD = $(CROSS_COMPILE)ld
 
-CCFLAGS = -g -c -Ofast
+CCFLAGS = -g -c -O
 ASFLAGS = -g
 LDFLAGS = -g -static
 
-SRCS = main.c image_change.c #image_change_asm.s
+SRCS = main.c image_change.c image_change_asm.s
 HEAD = image_change.h
-OBJS = main.o image_change.o #image_change_asm.o
+OBJS = main.o image_change.o image_change_asm.o
 
 EXE = main
 
